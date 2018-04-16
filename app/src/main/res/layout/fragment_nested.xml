@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NestedFragment">
+
+    <FrameLayout
+        android:id="@+id/container_child"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
+                android:textColor="@color/back"
+                android:textSize="26sp" />
+
+            <Button
+                android:id="@+id/btn_change_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/change_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

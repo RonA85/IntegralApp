@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IntegralApp</string>
+    <string name="total_fragment">Total</string>
+    <string name="add_button">Add</string>
+    <string name="change_color">Change Color</string>
+    <string name="err_msg_input">Please Insert number</string>
+</resources>
